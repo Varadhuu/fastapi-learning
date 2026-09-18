@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Body, Form, UploadFile, File
 from pydantic import BaseModel
 
-
 app = FastAPI()
 
 class Item(BaseModel):
